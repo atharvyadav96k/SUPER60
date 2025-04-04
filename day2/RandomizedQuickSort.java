@@ -4,7 +4,7 @@ import java.util.*;
 public class QuickSort {
     static int pivot(int arr[], int left, int ei) {
         Random r = new Random();
-        int pi = r.nextInt(ei - left + 1) + left; 
+        int pi = r.nextInt(ei - left + 1) + left;  
         int temp = arr[ei];
         arr[ei] = arr[pi];
         arr[pi] = temp; 
